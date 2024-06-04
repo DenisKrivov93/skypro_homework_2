@@ -1,2 +1,6 @@
+from datetime import datetime
+
+
 def date_func(date: str) -> str:
-    return date[8:10] + "." + date[5:7] + "." + date[:4]
+    """Принимает дату и возвращает в привычном формате"""
+    return datetime.fromisoformat(date).strftime("%d.%m.%Y")

@@ -1,5 +1,4 @@
-from src.masks import account_mask
-from src.masks import card_mask
+from src.masks import account_mask, card_mask
 
 
 def multimask_func(user_input: str) -> str:
