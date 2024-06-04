@@ -1,7 +1,9 @@
-def card_mask(number: int) -> int:
-    iter_nums = str(number)
-    for num in iter_nums:
-        print(num)
+from src.masks.account_mask import account_mask
+from src.masks.card_mask import card_mask
+
+def multimask_func(user_input: str) -> str:
 
 
-card_mask(123456789)
+print(account_mask(12548452145652563258))
+print(card_mask(1254845214565258))
+
