@@ -1,0 +1,3 @@
+2024-06-25 14:03:46,150 - root - INFO - Function add called with args: (2, 3) kwargs: {}. Result: 5
+2024-06-25 14:05:25,912 - root - INFO - Function add called with args: (2, 3) kwargs: {}. Result: 5
+2024-06-25 14:11:24,214 - root - INFO - Function add called with args: (2, 3) kwargs: {}. Result: 5
