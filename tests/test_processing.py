@@ -20,7 +20,7 @@ def test_sort_by_date_reverse() -> Any:
 
 # Тест на пустой список
 def test_sort_by_date_empty_list() -> Any:
-    input_list: List[Any] = [Any]
+    input_list: List[Any] = []
     assert sort_by_date(input_list) == []
 
 
