@@ -3,6 +3,8 @@ import logging
 
 
 def log(filename=None):
+    """Декоратор для логирования вызова функции и её результата.
+         Если указан filename, логирование будет происходить в файл, иначе в консоль."""
     if filename:
         logging.basicConfig(
             filename=filename, level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
